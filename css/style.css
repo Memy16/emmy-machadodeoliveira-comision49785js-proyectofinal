@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins ;
+    src: url(../assets/tipografias/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../assets/tipografias/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-medium;
+    src: url(../assets/tipografias/Inter-Medium.ttf);
+}
+@font-face{
+    font-family: inter-black;
+    src: url(../assets/tipografias/Inter-Black.ttf);
+}
+@font-face {
+    font-family: inter-extra-bold;
+    src: url(../assets/tipografias/Inter-ExtraBold.ttf);
+}
+header{
+    display: flex;
+    background-color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: #f4a7ba;
+    font-family: inter-medium;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: .9375rem;
+    align-items: center;
+}
+body{
+    background-color: #f4a7ba;
+}
+h1{
+    font-family: inter-extra-bold;
+    color: #f4a7ba;
+    text-align: center;
+    font-size: 10.625rem;
+    position: absolute;
+    bottom: 5;
+    left: 0;
+}
+h2{
+    text-align: center;
+    font-family: inter-black;
+}
+h3{
+    text-align: center;
+    font-family: inter-black;
+}
+.negrita{
+    font-weight: bold;
+}
+.primera-section{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-family: inter ;
+    background-image: url(https://i.ibb.co/4PTmJ5k/blink-forever-blackpink1024-1.png);
+    width: 100%;
+    height: 50.6875rem;
+}
+.primera-section-jisoo{
+    background-image: url(https://i.ibb.co/dQ4ZrzY/blink-forever-jisoo0.png);
+    width: 100%;
+    height: 50.625rem;
+    font-family: inter;
+    text-align: left;
+}
+.primera-section-jennie{
+    background-image: url(https://i.ibb.co/mRmWWrM/blink-forever-jennie0.png);
+    width: 100%;
+    height: 50.625rem;
+    font-family: inter;
+}
+.mv-dpv{
+    text-align: center;
+}
+.primera-section-rose{
+    background-image: url(https://i.ibb.co/XS9Yzck/blink-forever-rose0.png);
+    width: 100%;
+    height: 50.625rem;
+    font-family: inter;
+}
+.primera-section-lisa{
+    background-image: url(https://i.ibb.co/QH2hBHc/blink-forever-lisa0.png);
+    width: 100%;
+    height: 50.625rem;
+}
+.links-redes-sociales{
+    background-color: black;
+    text-align: center;
+    color: #f4a7ba;
+}
+.miembros{
+    display: flex;
+    width: 100%;
+    height: 21.875rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: #f4a7ba;
+    gap: .625rem;
+    
+}
+
+.c1 {
+    align-self: flex-start;
+}
+.c2 {
+    align-self: flex-end;
+}
+.c3 {
+    align-self: flex-start;
+}
+.c4 {
+    align-self: flex-end;
+}
+.grid-discografia{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,160px);
+}
+.grid-mv{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4,21.875rem);
+    grid-template-rows: repeat(5,14.75rem);
+}
+.grid-covers-rose{
+    display: grid;
+    grid-template-columns: repeat(3,26.375rem);
+    grid-template-rows: repeat(2,16.75rem);
+}
+.grid-dpv-lisa{
+    display: grid;
+    grid-template-columns: repeat(3,26.375rem);
+    grid-template-rows: repeat(3,16.75rem);
+}
+.flex-solo{
+    display: flex;
+    width: 100%;
+}
+.grid-dpv-mv{
+    display: grid;
+    grid-template-columns: repeat(2, 35.3125rem);
+    grid-template-rows: repeat(2, 20rem) ;
+    justify-content: center;
+}
+.grid-colaboraciones-lisa{
+    display: grid;
+    grid-template-columns: repeat(2, 32.8125rem);
+    grid-template-rows: repeat(2, 12.5rem);
+    justify-content: center;
+}
+.grid-mascotas-lisa{
+    display: grid;
+    grid-template-columns: repeat(3, 26.1875rem);
+    grid-template-rows: repeat(2, 29.3125rem);
+    align-items: center;
+}
+.grid-colab-jennie{
+    display: grid;
+    grid-template-columns: repeat(2, 32.8125rem);
+    grid-template-rows: repeat(4, 12.5rem);
+    justify-content: center;
+}
+.flex-colab-rose{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.info{
+    font-family: poppins;
+}
+.biografia{
+    font-family: inter;
+}
+.pelis{
+    text-align: center;
+}
+.item-centro{
+    text-align: center;
+}
+.section-cambiar-perfil{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.primera-section-grid{
+    background-image: url(https://i.ibb.co/WkYqbkv/coachella.png);
+    width: 90rem;
+    height: 50.625rem;
+}
+
+.segundo-grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3, 423px);
+    grid-template-rows: repeat(3, 285px);
+}
+.tercer-grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(5, 15.625rem);
+    grid-template-rows: repeat(2, 20rem);
+}
+.img1{
+    grid-area: img1;
+    width: 28.5625rem;
+    height: 12.8125rem;
+}
+.opciones{
+    text-align: center;
+}
+button{
+    text-align: center;
+    font-family: poppins;
+    background-color: #f4a7ba;
+}
+@media(max-width:1024px){
+    .primera-section-jisoo{
+        background-image: url(../assets/img/blink-forever-jisoo0.png);
+        width: 100%;
+        height: 50.625rem;
+    }
+    .primera-section-jennie{
+        background-image: url(https://i.ibb.co/mRmWWrM/blink-forever-jennie0.png);
+        width: 100%;
+        height: 50.625rem;
+    }
+    .primera-section-rose{
+        background-image: url(https://i.ibb.co/XS9Yzck/blink-forever-rose0.png);
+        width: 100%;
+        height: 50.625rem;
+    }
+    .primera-section-lisa{
+        background-image: url(https://i.ibb.co/QH2hBHc/blink-forever-lisa0.png);
+        width: 100%;
+        height: 50.625rem;
+    }
+    .grid-mascotas-lisa{
+        display: grid;
+        grid-template-columns: repeat(3, 26.1875rem);
+        grid-template-rows: repeat(2, 29.3125rem);
+        align-items: center;
+    }
+}
+@media (max-width:768px){
+        header{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            text-align: left;
+        }
+        .primera-section-jisoo{
+            background-image: url(https://i.ibb.co/dQ4ZrzY/blink-forever-jisoo0.png);
+            width: 48rem;
+            max-height: 30.5rem;
+            text-align: left;
+        }
+        .primera-section-jennie{
+            background-image: url(https://i.ibb.co/mRmWWrM/blink-forever-jennie0.png);
+            width: 48rem;
+            max-height: 30.5rem;
+        }
+        .primera-section-rose{
+            background-image: url(https://i.ibb.co/XS9Yzck/blink-forever-rose0.png);
+            width: 48rem;
+            max-height: 30.5rem;
+        }
+        .primera-section-lisa{
+            background-image: url(https://i.ibb.co/QH2hBHc/blink-forever-lisa0.png);
+            width: 48rem;
+            max-height: 30.5rem ;
+        }
+        .grid-mascotas-lisa{
+            display: grid;
+            grid-template-columns: repeat(3, 26.1875rem);
+            grid-template-rows: repeat(2, 29.3125rem);
+            align-items: center;
+        }
+        .grid-discografia{
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,160px);
+        }
+        .grid-mv{
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: repeat(3,300px);
+            grid-template-rows: repeat(9,200px);
+        }
+}
+@media(max-width: 375px){
+    header{
+        background-image: url(https://i.ibb.co/3MYQdJ4/blink-forever-mobile.png);
+    }
+    .primera-section{
+        background-image: url(https://i.ibb.co/j5fSxLN/blink-forever-blackpink-mobile-2.png);
+        width: 100%;
+        height: 11.6875rem;
+    }
+    .primera-section-jisoo{
+        background-image: url(https://i.ibb.co/dQ4ZrzY/blink-forever-jisoo0.png);
+        width: 22.5rem;
+        height: 11.6875rem;
+    }
+    .primera-section-jennie{
+        background-image: url(https://i.ibb.co/mRmWWrM/blink-forever-jennie0.png);
+        width: 22.5rem;
+        height: 11.6875rem;
+    }
+    .primera-section-rose{
+        background-image: url(https://i.ibb.co/T10VNJ9/image-7-1.png);
+        width: 100%;
+        height: 11.6875rem;
+    }
+    .primera-section-lisa{
+        background-image: url(https://i.ibb.co/hmtdXMr/blink-forever-lisa-mobile.png);
+        width: 22.5rem;
+        height: 11.6875rem;
+    }
+    .grid-mascotas-lisa{
+        display: grid;
+        grid-template-columns: repeat(2, 26.1875rem);
+        grid-template-rows: repeat(3, 29.3125rem);
+        align-items: center;
+    }
+    .grid-mv{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: repeat(2,165px);
+        grid-template-rows: repeat(11,70px);
+    }
+    .grid-covers-rose{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: repeat(2, 26.375rem);
+        grid-template-rows: repeat(4, 16.75rem);
+    }
+    .biografia{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+}
